@@ -1,0 +1,12 @@
+port: 3000
+servers:
+    - name: atlantis
+      enabled: false
+    - name: enskysquid
+      enabled: true
+    - name: htpan
+      enabled: true
+      map: map
+    - name: twforest
+      enabled: true
+      port: 25566
